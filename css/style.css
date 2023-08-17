@@ -1,0 +1,35 @@
+li {
+    list-style: none;
+}
+
+.card-name {
+font-size: 10px;
+
+}
+
+.produto-image {
+width: 100px;
+}
+
+.card {
+    background-color: lightblue;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    border: solid;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card .produto-name {
+    font-size: 16px;
+}
+
+.card .produto-description {
+    font-size: 15px;
+}
